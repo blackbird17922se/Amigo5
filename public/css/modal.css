@@ -1,0 +1,195 @@
+/* Selecciona cualquier elemento que no sea card-outline */
+.card-success:not(.card-outline)>.card-header, .card-success:not(.card-outline)>.card-header a {
+    color: #fff;
+
+}
+
+.close, .mailbox-attachment-close {
+    float: right;
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #213c67;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.card-success:not(.card-outline)>.card-header {
+    background: linear-gradient(360deg, #71b1f5 0%, #5089d7 100%);
+}
+
+.card-header {
+    /* background-color: transparent; */
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: .75rem 1.25rem;
+    position: relative;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+    /* (eje x, eje y, bold) */
+    text-shadow: 1px 2px 2px rgba(0,0,0,.5);
+
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background-color: #ffffff;
+}
+
+.modal.show .modal-dialog {
+    transform: none;
+}
+
+.modal.fade .modal-dialog {
+    transition: transform .3s ease-out;
+    /* transform: translate(0,-50px); */
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+
+    .modal-content {
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 50%);
+    }
+}
+
+
+
+.modal-dialog {
+    /* position: relative; */
+    width: auto;
+    /* margin: .5rem; */
+    /* pointer-events: none; */
+}
+
+.botModal {
+    text-align: right;
+    /* float: right; */
+}
+
+.card{
+    word-wrap: break-word;
+    background-color: #ffffff;
+    border-radius: .25rem;
+    /* z-index: 1000; */
+    /* position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+     */
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 0 solid rgba(0,0,0,.125);
+}
+
+/* ***********BOTONES***************** */
+.btn-lh{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* AZUL */
+.btn-lh-azul{
+    color: #ffffff;
+    box-shadow: 0 1px rgba(255,255,255,.5) inset, 0 1px 3px rgba(0,0,0,.2);
+    background: #5a5a5a linear-gradient(0deg,#71b1f5,#5089d7) repeat-x;
+}
+
+.btn-lh-azul:hover{
+    background: #5a5a5a linear-gradient(0deg,#5789be,#396199) repeat-x;
+}
+
+.btn-lh-azul:active{
+    background: #5a5a5a linear-gradient(0deg,#2b4872,#315383) repeat-x;
+}
+
+
+/* GRIS */
+.btn-lh-gris{
+    color: #ffffff;
+    box-shadow: 0 1px rgba(255,255,255,.5) inset, 0 1px 3px rgba(0,0,0,.2);
+    background: #5a5a5a linear-gradient(0deg,#a5a5a5,#797979) repeat-x;
+}
+
+.btn-lh-gris:hover{
+    background: #5a5a5a linear-gradient(0deg,#969696,#5c5c5c) repeat-x;
+}
+
+.btn-lh-gris:active{
+    background: #5a5a5a linear-gradient(0deg,#686868,#494949) repeat-x;
+}
+
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.alert-success {
+    color: #fff;
+    background: #5a5a5a linear-gradient(360deg, #71b1f5 0%, #5089d7 100%);
+    /* background-color: #28a745; */
+    border-color: #756969;
+}
+.alert-danger {
+    color: #fff;
+    background: linear-gradient(360deg, #ef7373 0%, #d64646 100%);
+    /* background-color: #a72828; */
+    border-color: #756969;
+}
+
+/* .alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+} */
+.card-body-title{
+    color: #4d85d4;
+}
+
+
+/* Capitalizar datos */
+.capit{
+    text-transform: capitalize;
+}
+
+.upper{
+    text-transform: uppercase;
+}

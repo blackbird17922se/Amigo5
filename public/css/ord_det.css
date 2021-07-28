@@ -1,0 +1,97 @@
+/* Barra de modulos */
+/* menu desplegable */
+#modulBar-det{
+    padding-top: 5px;
+}
+
+#modulBar-det .bar-button-pro {
+    margin: 0px 0px 0px;
+}
+
+/* Boton salir */
+#modulBar-det .header-right-info .navbar-nav {
+    float: right;
+    padding: 17px 0px 0px;
+}
+
+/* barra de navegacion modulos */
+#modulBar-det .navbar-nav .nav-item a{
+    border-radius: 0.3em;
+    padding: 10px 20px;
+}
+#modulBar-det .navbar-nav .nav-item a:hover{
+    background: linear-gradient( 360deg, #87cddc 0%, #3684b3 100%);
+}
+
+
+/* Barra de Tareas */
+#toolbar-det{
+    padding-bottom: 5px;
+}
+
+/* BOTONES BARRA DE TAREAS */
+
+#toolbar-det .btn-tb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 13px 0px 5px;
+    border-radius: 0.3em;
+    color: #ffffff;
+}
+
+#toolbar-det .btn-tb:hover{
+    background: linear-gradient( 360deg, #87cddc 0%, #3684b3 100%);
+    border-radius: 0.3em;
+    border: 1px inherit #3792bb;
+    color: #ffffff;
+ 
+}
+
+#toolbar-det .btn-tb i{
+    font-size: 25px;
+    padding: 6px;
+    color: #dde9f8;
+    text-shadow: 1px 2px 2px #1937a1;
+}
+
+
+#toolbar-det .btn-tb .btn-arrow-back{
+    color: #66a0fa;  
+}
+
+#toolbar-det .btn-tb:hover>.btn-arrow-back{
+    color: #23c50d;
+}
+#toolbar-det .btn-tb:hover>.btn-tb-delete{
+    color: #f33d3d;  
+}
+#toolbar-det .btn-tb:hover>.btn-tb-edit{
+    color: #ffe76e; 
+}
+#toolbar-det .btn-tb:hover>.btn-tb-pdf{
+    color: #ffffff;  
+}
+
+/* CONTENIDO */
+#cont-seccion h3{
+    color: #659ce6;
+}
+
+#orden_det ul li{
+    color: #474747;
+}
+
+#orden_det .tit-list-det{
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-right: 3px;
+}
+
+/* Aplicar un margen superior para los li que contienen los
+detalleas mas extensos como las observaciones de mecanicos,
+cliente, etc */
+#orden_det .long-det{
+    margin-top: 20px;
+}
+

@@ -1,0 +1,2 @@
+NO FUNCIONA EL SELECT 2 EN UN MODAL, NO MUETRA EL BUSCADOR:
+ -Eiminar el tabindex="-1" del modal

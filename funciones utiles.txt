@@ -1,0 +1,44 @@
+estilos de:
+
+menu laterl -> mentisMenuVertical.css
+
+#TOOLBAR: Barra azul oscura ancha, donde se encuentran las tareas segun el modulo.
+    * COLORES: Se encuentra en longhorn.css
+
+
+
+
+
+HERRAMIENTAS:
+ * Colores de fondo con degradado:
+    background: linear-gradient(360deg, #000d6c 0%, #000001 100%);
+
+
+                // Obtener los valores de los checkbox de servicios
+            // var checkbxServ= $('input[type="checkbox"]:checked');
+            // var valChecks = "";
+            // if(checkbxServ.length > 0){
+            //     checkbxServ.each(function(){
+            //         valChecks += $(this).val() + "-"
+            //     })
+            // }
+
+
+FUNCIONES CUANDO SE REQUIERA QUE AL HACER CLICK CON EL BOON DERECHO DEL MOUSE
+SE DESPLIEGE UN MENU PROPIO
+
+    /* Quitar menu Chrome por default */
+    // $(document).bind("contextmenu",function(e){
+    //     $('#menu').css({'display':'block', 'left': e.pageX, 'top': e.pageY});
+    //     return false;
+    // })
+
+    /* Evento boton derecho mouse */
+    // $('#tabla_products tbody').mousedown(function (e) { 
+    //     if(e.button == 2){
+    //         console.log("click der");
+    //         $("#contextMenu").css("top", e.pageY -20);
+    //         $("#contextMenu").css("left", e.pageX -20);
+    //         $("#contextMenu").show("fast");
+    //     }   
+    // });

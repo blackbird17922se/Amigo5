@@ -1,0 +1,440 @@
+/* barra de navegacion modulos */
+#modulBar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#modulBar-det .bar-button-pro {
+    margin: 0px 0px 0px;
+}
+
+#modulBar .navbar-nav .nav-item a{
+    border-radius: 0.3em;
+}
+
+#modulBar .navbar-nav .nav-item .modul-item{
+    border-radius: 0.3em;
+    padding: 10px 20px;
+}
+
+#modulBar .navbar-nav .nav-item a:hover{
+    background: linear-gradient( 360deg, #87cddc 0%, #3684b3 100%);
+}
+
+/* Swich menu principal */
+#modulBar .bar-button-pro {
+    margin: 5px 0px 0px;
+}
+
+/* Boton salir */
+#modulBar .header-right-info .navbar-nav {
+    float: right;
+    padding: 10px 0px 0px;
+}
+
+.custom-product-edit {
+    margin-top: 0px;
+}
+
+
+#cont-options{
+    background: url(../../public/img/hero.png) no-repeat 0% 53%;
+    /* background: linear-gradient(360deg, rgba(255,255,255,0), rgba(7, 0, 0, 0.432)), url(../../public/img/hero.png) no-repeat 0% 35%; */
+    margin-top: 40px;
+}
+
+#optionBar{
+    background: linear-gradient(360deg, #000d6c 0%, #000001 100%);
+}
+
+.tit-optionBar{
+    font-size: 3em;
+    /* text-align: center; */
+    font-weight: 100;
+    color: #ffffff;
+    padding-left: 10px;
+    
+}
+
+.ds-optionBar{
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+/* textos botones */
+#optionBar .btn-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3em;
+    color: #ececec;
+    /* color: #cacaca; */
+}
+
+#optionBar .btn-opt:hover{
+    border-radius: 0.3em;
+    color: #ffffff;
+    /* x,y,intensidad, color */
+    text-shadow: 0px 0px 20px #48c4d1;
+}
+#optionBar .btn-opt i{
+    font-size: 25px;
+    padding: 6px;
+    color: #ececec; 
+}
+
+#optionBar .btn-opt:hover> i{
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #48c4d1;
+}
+
+
+/* Barra superior Mecanico */
+#optionBarMec{
+    background: linear-gradient(360deg, #e5d2a6 0%, #c3af7f 100%);
+}
+
+#optionBarMec .btn-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3em;
+    color: #f5f5f5;
+}
+#optionBarMec .btn-opt:hover{
+    border-radius: 0.3em;
+    color: #ffffff;
+    /* x,y,intensidad, color */
+    text-shadow: 0px 0px 20px #48c4d1;
+}
+#optionBarMec .btn-opt i{
+    font-size: 35px;
+    padding: 6px;
+    color: #f5f5f5;
+    /* text-shadow: 1px 2px 2px #1937a1; */
+}
+
+#optionBarMec .btn-opt:hover> i{
+    color: #ffffff;
+    /* x,y,intensidad, color */
+    text-shadow: 0px 0px 20px #48c4d1;
+}
+
+
+/*************** Barra superior Usuario ******************/
+#optionBarUsu{
+    background: linear-gradient(360deg, #972a2a 0%, #5c0000 100%);
+}
+
+#optionBarUsu .btn-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3em;
+    color: #e9e9e9;
+}
+#optionBarUsu .btn-opt:hover{
+    /* background: linear-gradient( 360deg, #87cddc 0%, #3684b3 100%); */
+    border-radius: 0.3em;
+    text-shadow: 0px 0px 20px #2ff6fd;
+    color: #ffffff;
+ 
+}
+#optionBarUsu .btn-opt i{
+    font-size: 30px;
+    padding: 6px;
+    color: #e9e9e9;
+ 
+}
+
+#optionBarUsu .btn-opt:hover> i{
+    color: #ffffff;
+    /* x,y,intensidad, color */
+    text-shadow: 0px 0px 20px #2ff6fd;
+}
+
+
+
+#cont-seccion{
+    width: 100%;
+    background: linear-gradient(360deg, #c6d5e7 0%, #ffffff 60%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#cont-seccion h1{    
+    font-size: 40px;
+    color: #4d85d4;
+}
+#cont-seccion .menuPerfil .fa{
+    font-size: 20px;
+    margin-right: 1rem;
+}
+#cont-seccion .menuPerfil a{
+    color: #134285;
+    font-size: 14px;
+    padding: 15px;
+}
+#cont-seccion .menuPerfil li{
+    padding: 20px;
+    
+}
+#cont-seccion .menuPerfil li a:hover{
+    color: #86aee6;
+    
+}
+#cont-seccion .infoPerfil{
+    text-align: center;
+    color: #134285;
+}
+
+
+/* BUSCADOR */
+
+/* cONCEDER A TODOS LOS INPUT LAS PROPIEDADES FLEXBOX */
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    box-shadow: inset 0 0 0 transparent;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.card {
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    margin-bottom: 1rem;
+}
+
+.card .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+}
+
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    border-radius: 10px;
+
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 0 solid rgba(0,0,0,.125);
+}
+
+.card-body .col-7 {
+    padding-right: 20px;
+    padding-left: 20px;
+    /* width: 100%; */
+    /* padding: 30px; */
+
+}
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
+
+.card .card-body .img-circle {
+    border-radius: 10%;
+}
+
+#mod_n_orden{
+    overflow-y: auto;
+}
+
+element.style {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+
+.dataTables_scrollBody{
+    position: relative;
+    overflow: auto;
+    width: 100%;
+
+}
+
+/* Permite que en modo celular, la tabla se ajuste */
+.card-body .col-sm-12 {
+    width: 100%;
+}
+
+/* ----------------- MENU CONTEXTUAL ----------------- */
+#contextMenu{
+    background: linear-gradient( 311deg, #182a40 5%, #67a4e7 80%);
+    font-family: 'Play', sans-serif;
+    color: #ffffff;
+    padding: 3px 4px;
+}
+
+
+#contextMenu li a{
+    font-family: 'Play', sans-serif;
+
+    color: #ffffff;
+
+}
+
+.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{
+    color:#000;
+    text-decoration:none;
+    background: linear-gradient( 360deg, #87cddc 0%, #3684b3 100%);
+    border-radius: 0.2em;
+
+    /* background-color:#ff0909 */
+}
+    
+.dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover{
+    color:#fff;text-decoration:none;background-color:#337ab7;outline:0
+}
+
+.dropdown-menu>.disabled>a,.dropdown-menu>.disabled>a:focus,.dropdown-menu>.disabled>a:hover{
+    color:#777
+}
+
+.dropdown-menu>.disabled>a:focus,.dropdown-menu>.disabled>a:hover{
+    text-decoration:none;cursor:not-allowed;background-color:transparent;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)
+}
+
+#conMenu{
+    padding-left: 0px;
+}
+
+
+
+.nav-pills>li>a:hover {
+    border-radius: 4px;
+    background: linear-gradient( 360deg, #87cddc 0%, #3684b3 100%);
+    color: #ffffff;
+}
+
+/* Buscador */
+.busq .card-title{
+    padding-bottom: 10px;
+}
+
+#tabla_products{
+    cursor:pointer;
+}
+
+#tabla_veh{
+    cursor:pointer;
+}
+
+.dataTables_scrollHead{
+    width: 100%;
+}
+
+.barra-detalles .breadcome-list.single-page-breadcome {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.barra-detalles{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* VISTA DETALLES E HISTORIAL DEL VEHICULO */
+
+.card-contenedor{
+    padding-top: 10px;
+    /* background-color: aqua; */
+}
+
+#otra{
+    /* background-color: brown; */
+    border-radius: 10px;
+    box-shadow: -1px -1px 1px rgb(0 0 0 / 38%), -2px -2px 4px rgb(0 0 0 / 20%);    /* border-top: 10px outset rgb(0, 0, 0); */
+}
+
+#myTabContentveh{
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+#container-dev-veh h3,h4{ 
+    color: #4d85d4;
+}
+
+#container-dev-veh h4 span{ 
+    font-weight: 100;
+}
+#container-dev-veh ul{
+    color: #3e3e3e;
+}
+
+.bolds{
+    font-weight: bold;
+}
+
+.cont-detalles{
+    margin-top: 35px;
+}
+
+.cont-op h4{
+    margin-left: 25px;
+}
+
+.op-link{
+    padding: 5px 0px;
+}
+.op-link a{
+    padding: 5px 0px;
+    color: #3e3e3e;
+}
+.op-link a:hover{
+    color: #3677d1;
+}
+.op-link a span{
+    font-weight: 600;
+}
+.op-link a i.fas{
+    padding-right: 10px;
+    color: #4d85d4;
+}

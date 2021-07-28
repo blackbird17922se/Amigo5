@@ -1,0 +1,29 @@
+/*************** Barra superior Usuario ******************/
+#optionBarServ{
+    background: linear-gradient(360deg, #55adff 0%, #2080d9 100%);
+}
+
+#optionBarServ .btn-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3em;
+    color: #e9e9e9;
+}
+#optionBarServ .btn-opt:hover{
+    border-radius: 0.3em;
+    text-shadow: 0px 0px 20px #2ff6fd;
+    color: #ffffff;
+ 
+}
+#optionBarServ .btn-opt i{
+    font-size: 30px;
+    padding: 6px;
+    color: #e9e9e9;
+}
+
+#optionBarServ .btn-opt:hover> i{
+    color: #ffffff;
+    /* x,y,intensidad, color */
+    text-shadow: 0px 0px 20px #2ff6fd;
+}

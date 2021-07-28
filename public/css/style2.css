@@ -1,0 +1,299 @@
+
+#header-home{
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#header-home .nav ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    display: inline-block; 
+}
+#header-home .nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+#header-home .nav ul li a{
+    color: blue;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: 3s;
+}
+#header-home .nav ul li a:hover{
+    border-top: 2px solid;
+    text-decoration: none;
+}
+#header-home .hero{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    margin-bottom: 1px;
+}
+
+.titulo{
+    text-align: center;
+    color: red;
+}
+
+/* CONTENEDOR MAIN */
+/* #main{
+    margin-top: 100px;
+} */
+
+#main p{
+    text-align: center;
+    font-size: 20px;
+}
+#main .section2 .section3{
+    padding: 5px;
+    margin: 5px;
+}
+#footer{
+    background:rgb(191, 73, 20);
+}
+.icono a{
+    
+    float: left;
+}
+#footer h1 h3{
+   
+   color: white;
+}
+
+/* .hpanel{
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 320px;
+    width: 95%;
+    background: rgb(245, 245, 248);
+    justify-content: flex-end;
+} */
+
+
+/* LOG-IN */
+
+#body-login{
+    background: url("../img/fondo-login.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+#body-login .cont-logo{
+    margin-top: 30px;
+}
+
+.cont-frm-log{
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.cont-frm-log h1{
+    color: #be0a0a;
+    font-size: 40px;
+}
+
+.cont-frm-log .form-group label{
+    text-transform: uppercase;
+}
+
+
+/* ESTILOS VISTA PRINCIPAL (MAIN) */
+#body-main{
+    /* background: url(../img/fondo-main.jpg); */
+}
+.cont-main{
+    text-align: center;
+    text-transform: capitalize;
+    /* color: #ffffff; */
+    /* color: rgb(12, 12, 12); */
+    margin-top: 50px;
+}
+
+.cont-main p{
+    font-size: 20px;
+}
+
+
+
+.body-modules{
+    background-color: #242424;
+    color: #ffffff;
+}
+
+/* .mau li.lim{
+    background-color: #242424;
+} */
+
+.darkmenucolor{
+    background-color: #343434;
+    color: #ffffff;
+}
+
+.body-modules-w{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.tit-mod{
+    color: #ffffff;
+    background-color: #242424;
+}
+
+.whitetext{
+    color: #fff;
+}
+
+/* .darkmenu a.amenu{
+    color: #ffffff;
+} */
+
+
+
+/* 
+
+.lab-mod{
+    color: #ffffff;
+
+} */
+
+/* 
+.body-modules h1{
+    color: #ffffff;
+}
+ */
+
+#orden_det{
+    text-align: left;
+    float: left;
+}
+
+.b_accion{
+    color: rgb(245, 245, 248);  
+}
+
+#body-start{
+    background: url(../img/fondo-start.jpg);
+    font-size: 17px;
+}
+
+@media (min-width:800px){
+
+    #body-start .container-fluid{
+        position: absolute;
+        top: 10%;
+    }
+
+    .cont-frm-serial{
+        padding: 20px 80px;
+    }
+}
+
+
+/* FORMULARIO SERIAL */
+.cont-frm-serial{
+    background-color: #ffffff;
+    opacity: 0.9; 
+}
+
+#serial{
+    width: 100%;
+    color: #be0a0a;
+    text-transform: uppercase;
+}
+
+.inicio{   
+    background-color: #ffffff;
+    padding: 20px 50px 10px;
+    opacity: 0.9; 
+}
+
+.form-start{
+    text-align: center;
+    display: flex;
+    align-items: start;
+}
+.form-start label, small{
+    float: left;
+}
+
+.form-start input{
+    opacity: 1; 
+}
+
+.btn-accion{
+    padding: 20px 15px;
+    color: #444;
+}
+.btn-accion:hover{
+    color: #ff0000;
+}
+
+.pd-setting-ed{
+    padding: 0px;
+}
+
+.td_detalle{
+    padding: 40%;
+}
+
+.td_detalle:hover{
+    color: red;
+    padding: 40%;
+}
+
+#td-alerta{
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+div.dataTables_wrapper {
+    /* width: 800px; */
+    margin: 0 auto;
+}
+
+#cont-prin{
+    /* background-color: #000000; */
+    margin-top: 50px;
+}
+
+/* CABECERA MODULOS (cab-mod) */
+#cont-prin .cab-mod{
+    text-align: center;
+   
+
+}
+.dark #cont-prin .cab-mod{
+    color: #ffffff;
+}
+
+
+
+.dark{
+    background-color: #242424;
+}
+
+#cont-prin #example #theadd{
+    color: #ffffff;
+}
+
+#listServ li{
+    list-style: disc;
+    color: #be0a0a;
+}
+
+.imagesOrd{
+    width: 250px;
+    
+}
+
+.imagesOrdAmp{
+        width: 700px;
+
+
+}
